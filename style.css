@@ -1,0 +1,86 @@
+.banner-wrap {
+  position: relative;
+  width: fit-content;
+  height: 300px;
+}
+.banner-cover {
+  position: relative;
+  width: 600px;
+  height: inherit;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+.banners {
+  height: inherit;
+  position: absolute;
+  display: flex;
+  width: 500%;
+}
+.img {
+  list-style-type: none;
+  height: inherit;
+  width: 100%;
+  background-color: gray;
+  position: relative;
+}
+.img:first-of-type {
+  background-color: red;
+}
+.img:nth-of-type(2) {
+  background-color: orange;
+}
+.img:nth-of-type(3) {
+  background-color: green;
+}
+.img:nth-of-type(4) {
+  background-color: blue;
+}
+.img:nth-of-type(5) {
+  background-color: purple;
+}
+.slider-control {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btns-wrap > li {
+  width: 8px;
+  height: 5px;
+  background-color: #fff;
+  border: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.slider-control > button {
+  height: 5px;
+  width: 5px;
+  background-color: #fff;
+  border: 0;
+  margin-right: 2px;
+  border-radius: 5px;
+  padding: 0;
+}
+.slider-control ul li.On {
+  width: 16px;
+}
+
+.slider-control .btns-wrap {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+.slider-control .btns-wrap > button {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 0;
+}
